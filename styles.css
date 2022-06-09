@@ -70,6 +70,17 @@ body {
     min-width: 1.2rem;
     
   }
+
+#dropdown {
+    width:101.5%;
+    height:33px;
+    box-shadow: 5px 5px #BA4A5B;
+    border: 1px solid #BA4A5B;
+    color: #BA4A5B;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    margin: auto;
+  }
   
   .radios, .check {
     box-shadow: unset;
