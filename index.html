@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css">
+   <title>Coding Survey</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+    <div>
+      <h1 id="title">Why do you want to learn web development?</h1>
+      <p id="description"><b>Thank you so much</b> for taking the time to respond to this short form. This survey is focused on the topic, <b>why</b> different people try to <b>learn web development</b> by themselves. The results will help to <b>better</b> the <b>user experience</b> in the future. </p>
+    </div>
+    </header>
+    <form id="survey-form">
+    <div id="main-body">
+       <label id="name-label">Name <input id="name" type="text" required placeholder="Anna" /></label>
+       <label id="email-label">Email <input id="email" type="email" required placeholder="anna@nova.com"/></label>
+       <label id="number-label">What is your age?<input id="number" type="number" min="5" max="110" placeholder="25"/></label>
+       <label id="number-label">How many hours do you code per day? <input id="number" type="number" min="0" max="24" placeholder="2"/></label>
+       <label id="drop">Why do you learn to code? <select name="referrer" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">I want to start CS career.</option>
+            <option value="2">I am learning to code in school.</option>
+            <option value="3">It is just a hobby.</option>
+            <option value="4">Other</option>
+          </select>
+          </label>
+          </div>
+          <hr>
+          <div>
+            <label>What is your current status?</label>
+            <label class="radios"><input type="radio" name="occupation" class="inline" value="1"/> Student</label>
+          <label class="radios"><input type="radio" name="occupation" class="inline" value="2"/> Employee</label>
+          <label class="radios"><input type="radio" name="occupation" class="inline" value="3" /> Teacher</label>
+          <div>
+            <label>What programing skills do you want to learm?</label>
+            <label class="check"><input type="checkbox" class="box" value="1"> HTML </label>
+            <label class="check"><input type="checkbox" class="box" value="2"> CSS </label>
+            <label class="check"><input type="checkbox" class="box" value="3"> Java Script</label>
+            <label class="check"><input type="checkbox" class="box" value="4"> Phyton</label>
+          <hr>
+          <div>
+            <label class="text">What do you think could be explained better in this course?
+            <textarea name="info" rows="3" cols:="20" placeholder="I had a bit of trouble undestranding..."></textarea>
+            </label> 
+          </div>
+          <div class="button">
+            <input type="submit" class="submit" value="Submit" id="submit"/>
+            </div>
+    </div>
+    </div>
+    </form>
+    <footer>
+      <p class="footer">
+        <b>Thank you</b> for taking your time to answer this survey. 
+      </p>
+    </footer>
+  </body>
+</html>
